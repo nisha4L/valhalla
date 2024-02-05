@@ -12,6 +12,8 @@ const poppins = Poppins({
   weight : ['400','500','700','900'],
   style : ['italic','normal'],
   variable : '--font-poppins',
+  adjustFontFallback : false,
+  display : 'swap',
 })
 
 export const metadata: Metadata = {
